@@ -233,8 +233,8 @@ module.exports = function (grunt) {
                     removeAttributeQuotes: true,
                     removeRedundantAttributes: true,
                     useShortDoctype: true,
-                    removeEmptyAttributes: true,
-                    removeOptionalTags: true*/
+                    removeEmptyAttributes: true,*/
+                    removeOptionalTags: false
                 },
                 files: [{
                     expand: true,
