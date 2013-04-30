@@ -253,6 +253,7 @@ module.exports = function (grunt) {
                     cwd: '<%= yeoman.app %>',
                     dest: '<%= yeoman.dist %>',
                     src: [
+                        '*.html',
                         '*.{ico,txt}',
                         '.htaccess',
                         'images/{,*/}*.{webp,gif}',
@@ -274,8 +275,8 @@ module.exports = function (grunt) {
                 'coffee',
                 'compass:dist',
                 'imagemin',
-                'svgmin',
-                'htmlmin'
+                'svgmin'/*,
+                'htmlmin'*/
             ]
         }
     });
