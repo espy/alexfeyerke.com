@@ -6,47 +6,6 @@ body {
   color: #666;
   font: 16px helvetica,arial,freesans,clean,sans-serif;
   line-height: 20px;
-  -webkit-animation: color_change 120s infinite alternate;
-  -moz-animation: color_change 120s infinite alternate;
-  -ms-animation: color_change 120s infinite alternate;
-  -o-animation: color_change 120s infinite alternate;
-  animation: color_change 120s infinite alternate;
-}
-
-@-webkit-keyframes color_change {
-  0% { background-color: #D0C7C2; }
-  25% { background-color: #DFC2AC; }
-  50% { background-color: #F2E1BF; }
-  75% { background-color: #DFEBBC; }
-  100% { background-color: #F3ECB0; }
-}
-@-moz-keyframes color_change {
-  0% { background-color: #D0C7C2; }
-  25% { background-color: #DFC2AC; }
-  50% { background-color: #F2E1BF; }
-  75% { background-color: #DFEBBC; }
-  100% { background-color: #F3ECB0; }
-}
-@-ms-keyframes color_change {
-  0% { background-color: #D0C7C2; }
-  25% { background-color: #DFC2AC; }
-  50% { background-color: #F2E1BF; }
-  75% { background-color: #DFEBBC; }
-  100% { background-color: #F3ECB0; }
-}
-@-o-keyframes color_change {
-  0% { background-color: #D0C7C2; }
-  25% { background-color: #DFC2AC; }
-  50% { background-color: #F2E1BF; }
-  75% { background-color: #DFEBBC; }
-  100% { background-color: #F3ECB0; }
-}
-@keyframes color_change {
-  0% { background-color: #D0C7C2; }
-  25% { background-color: #DFC2AC; }
-  50% { background-color: #F2E1BF; }
-  75% { background-color: #DFEBBC; }
-  100% { background-color: #F3ECB0; }
 }
 
 a{
